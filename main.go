@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/TheChirag356/dsa_anki/ui"
+	"github.com/TheChirag356/dsa_srs/ui"
 )
 
 func main() {

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/TheChirag356/dsa_anki/constants"
-	"github.com/TheChirag356/dsa_anki/storage"
+	"github.com/TheChirag356/dsa_srs/constants"
+	"github.com/TheChirag356/dsa_srs/storage"
 
 	"github.com/charmbracelet/bubbles/textinput"
 	tea "github.com/charmbracelet/bubbletea"
