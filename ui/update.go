@@ -24,7 +24,7 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		case "enter":
 			switch m.cursor {
 			case int(menuViewDueCards):
-				// TODO: hook into review flow
+				return newReviewModel(), nil
 			case int(menuAddConceptCard):
 				return newAddConceptModel(), nil
 			case int(menuAddProblemCard):
