@@ -18,4 +18,5 @@ type BaseCard struct {
 	NextReview   time.Time `json:"next_review"`
 	Repetition   int       `json:"repetition"`
 	EaseFactor   float64   `json:"ease_factor"`
+	Interval     int       `json:"interval"` // in days
 }

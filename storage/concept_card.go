@@ -27,6 +27,7 @@ func NewConceptCard(title string, notes string) (ConceptCard, error) {
 			NextReview:   time.Now().Add(time.Hour * 24),
 			Repetition:   0,
 			EaseFactor:   2.5,
+			Interval: 1,
 		},
 		Title: title,
 		Notes: notes,

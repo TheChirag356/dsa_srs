@@ -27,6 +27,7 @@ func NewProblemCard(title string, link string, topic string) (ProblemCard, error
 			NextReview:   time.Now().Add(time.Hour * 24),
 			Repetition:   0,
 			EaseFactor:   2.5,
+			Interval: 1,
 		},
 		Title: title,
 		Link:  link,
