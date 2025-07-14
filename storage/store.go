@@ -15,12 +15,6 @@ func (store *CardStore) AppendProblemCard(card ProblemCard) {
 	store.ProblemCards = append(store.ProblemCards, card)
 }
 
-type DueCard struct {
-	Type CardType    `json:"card_type"`
-	ID   string      `json:"id"`
-	Card interface{} `json:"card"` // Can be ConceptCard or ProblemCard
-}
-
 // Load all cards and return only whose NextReview <= now.
 func (s *CardStore) GetDueCards() []DueCard {
 	now := time.Now()
