@@ -1,3 +1,5 @@
 *.exe
 data/
 debug.log
+# Added by goreleaser init:
+dist/
